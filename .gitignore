@@ -1,0 +1,27 @@
+# .gitignore
+# Environments
+venv/
+.env/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs
+.vscode/
+.idea/
+
+# Data (Crucial: Don't upload massive LiDAR datasets)
+*.bin
+*.npy
+*.pcd
+*.ply
+*.txt
+samples/
+data/
+
+# OS specific
+.DS_Store
+Thumbs.db
