@@ -13,7 +13,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# Data (Crucial: Don't upload massive LiDAR datasets)
+# Data
 *.bin
 *.npy
 *.pcd
@@ -25,3 +25,9 @@ data/
 # OS specific
 .DS_Store
 Thumbs.db
+
+#Build Folders
+build/
+dist/
+*.spec
+LidarViz_Win.spec

@@ -34,7 +34,7 @@ class LidarAppGui(QtWidgets.QMainWindow):
         self.size_slider.setValue(2)
         self.sidebar_container.addWidget(self.size_slider)
         
-        # NEW: Camera Views
+        # Camera Views
         self.view_group = QtWidgets.QGroupBox("Camera Views")
         self.view_layout = QtWidgets.QVBoxLayout()
         self.btn_bev = QtWidgets.QPushButton("Bird's Eye View (Top)")
